@@ -13,7 +13,8 @@ import pandas as pd
 
 #veri yukleme
 
-veriler = pd.read_csv('odev_tenis.csv') 
+veriler = pd.read_csv('odev_tenis.csv') # You can find the 'odev_tenis' file in my repositories
+
 
 print(veriler)
 
