@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # veri yukleme
-veriler = pd.read_csv('maaslar.csv')
+veriler = pd.read_csv('maaslar.csv') # You can find the 'odev_tenis' file in my repositories
 
 #data frame dilimleme (slice)
 x = veriler.iloc[:,1:2]
